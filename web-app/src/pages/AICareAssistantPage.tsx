@@ -166,7 +166,7 @@ return (
                 className={`max-w-xl p-4 rounded-2xl text-xs leading-relaxed ${
                   msg.sender === "USER"
                     ? "bg-emerald-600 text-white rounded-br-none"
-                    : "bg-emerald-50 border border-emerald-900/10 text-slate-700 rounded-bl-none"
+                    : "bg-[#ECFDF5] border border-emerald-200 text-slate-800 rounded-bl-none shadow-md"
                 }`}
               >
                 <p className="whitespace-pre-wrap">{msg.text}</p>
