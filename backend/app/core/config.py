@@ -8,7 +8,7 @@ class Settings(BaseSettings):
     mongodb_db: str = "ayursutra"
     firebase_project_id: str = ""
     firebase_credentials_path: str = ""
-    fle_encryption_key: str = "dev-only-key-change-in-production"
+    fle_encryption_key: str
     cors_origins: str = "http://localhost:5173"
     dev_mode: bool = True
 
